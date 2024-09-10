@@ -1,0 +1,9 @@
+services:
+  api:
+    image: siriusai_webpage
+    container_name: siriusai_webpage
+    ports:
+      - "8010:3000"
+    mem_limit: 4g
+    env_file:
+      - .env
