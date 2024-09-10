@@ -5,5 +5,3 @@ services:
     ports:
       - "8010:3000"
     mem_limit: 4g
-    env_file:
-      - .env
