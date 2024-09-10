@@ -10,33 +10,33 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import Image from "next/image";
 // import { Pagination, } from "swiper/modules";
-// import "../../style/style.scss";
+import "../../style/style.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import Footer from "../../components/Footer";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import { useRouter } from 'next/navigation';
 // import Carousel from "../../components/Carousel";
-import Service_page from '../../public/images/Service_page.webp';
-import AiSolutionsFactory from '../../public/images/AiSolutionsFactory.webp';
-import AiImplementationExperience from '../../public/images/AiImplementationExperience.gif';
+import Service_page from '../../../public/images/Service_page.webp';
+import AiSolutionsFactory from '../../../public/images/AiSolutionsFactory.webp';
+import AiImplementationExperience from '../../../public/images/AiImplementationExperience.gif';
 import { useState } from "react";
-import SiriusAiLogo from "../../public/images/SiriusAiLogo.png";
-import Sanjay from '../../public/images/Sanjay.webp';
-import AbhinavImg from '../../public/images/AbhinavImg.webp';
-import AbhinavAnand from '../../public/images/AbhinavAnand.jpeg';
-import Narendra from '../../public/images/Narendra.webp';
-import Thomas from '../../public/images/Thomas.jpeg';
-import Tommy from '../../public/images/Tommy.jpeg';
-import Ziv from '../../public/images/Ziv.jpeg';
-import Prateek from '../../public/images/Prateek.jpg';
-import Anupam from '../../public/images/Anupam.jpeg';
-import Gaurav from '../../public/images/Gaurav.jpg';
-import Vijay from '../../public/images/Vijay.png';
-import Divyank from '../../public/images/Divyank.jpg';
-import CommonMeetTeamCard from '../components/CommonMeetTeamCard';
-import Slide1 from "../../public/images/Slide1.jpg";
-import HomeMainImg from '../../public/images/HomeMainImg.gif';
+import SiriusAiLogo from "../../../public/images/SiriusAiLogo.png";
+import Sanjay from '../../../public/images/Sanjay.webp';
+import AbhinavImg from '../../../public/images/AbhinavImg.webp';
+import AbhinavAnand from '../../../public/images/AbhinavAnand.jpeg';
+import Narendra from '../../../public/images/Narendra.webp';
+import Thomas from '../../../public/images/Thomas.jpeg';
+import Tommy from '../../../public/images/Tommy.jpeg';
+import Ziv from '../../../public/images/Ziv.jpeg';
+import Prateek from '../../../public/images/Prateek.jpg';
+import Anupam from '../../../public/images/Anupam.jpeg';
+import Gaurav from '../../../public/images/Gaurav.jpg';
+import Vijay from '../../../public/images/Vijay.png';
+import Divyank from '../../../public/images/Divyank.jpg';
+import CommonMeetTeamCard from '../../components/CommonMeetTeamCard';
+import Slide1 from "../../../public/images/Slide1.jpg";
+import HomeMainImg from '../../../public/images/HomeMainImg.gif';
 import Link from "next/link";
 
 // Import Swiper React components
@@ -47,7 +47,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import "../../src/style/style.scss";
 
 const Home: React.FC = () => {
 
@@ -125,7 +124,7 @@ const Home: React.FC = () => {
 				className="swiper-slide img"
 				alt="First slide"
 			/>
-		<button className="common-button primary-btn" onClick={() => handleSlideClick(1)}>BOOK A DEMO</button>
+		{/* <button className="common-button primary-btn-slider" onClick={() => handleSlideClick(1)}>BOOK A DEMO</button> */}
 		</SwiperSlide>
         <SwiperSlide>                   
 			<Image
@@ -133,7 +132,7 @@ const Home: React.FC = () => {
 				className="swiper-slide img"
 				alt="First slide"
 			/>
-		<button className="common-button primary-btn" onClick={() => handleSlideClick(2)}>BOOK A DEMO</button>
+		{/* <button className="common-button primary-btn-slider" onClick={() => handleSlideClick(2)}>BOOK A DEMO</button> */}
 		</SwiperSlide>
 		<SwiperSlide>                   
 			<Image
@@ -141,7 +140,7 @@ const Home: React.FC = () => {
 				className="swiper-slide img"
 				alt="First slide"
 			/>
-			  <button className="common-button primary-btn" onClick={() => handleSlideClick(3)}>BOOK A DEMO</button>
+			  {/* <button className="common-button primary-btn-slider" onClick={() => handleSlideClick(3)}>BOOK A DEMO</button> */}
 		</SwiperSlide>
 		<SwiperSlide>                   
 			<Image
@@ -149,7 +148,7 @@ const Home: React.FC = () => {
 				className="swiper-slide img"
 				alt="First slide"
 			/>
-		<button className="common-button primary-btn" onClick={() => handleSlideClick(4)}>BOOK A DEMO</button>
+		{/* <button className="common-button primary-btn-slider" onClick={() => handleSlideClick(4)}>BOOK A DEMO</button> */}
 		</SwiperSlide>
 		<SwiperSlide> 
              
@@ -158,7 +157,7 @@ const Home: React.FC = () => {
 				className="swiper-slide imge"
 				alt="First slide"
 			/>
-		<button className="common-button primary-btn" onClick={() => handleSlideClick(5)}>BOOK A DEMO</button>
+		{/* <button className="common-button primary-btn" onClick={() => handleSlideClick(5)}>BOOK A DEMO</button> */}
 		</SwiperSlide>	
       </Swiper>
 		<div className="main-demo-page">

@@ -1,0 +1,28 @@
+.team-member-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .member-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+
+    .name {
+        color: #c7741e;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .position {
+        color: #fff;
+        font-size: 16px;
+    }
+}
